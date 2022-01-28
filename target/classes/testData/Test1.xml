@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="smoke">
+	<test name="Test1">
+		<parameter name="CategoryName" value="TR Category"/>
+		<parameter name="ColorName" value="Burnt Orange"/>
+		
+		
+		<classes>
+			<class name="test.Test1"></class>
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="smoke">
+	<test name="Test3">
+		<parameter name="mon1" value="Jan"/>
+		<parameter name="mon2" value="Feb"/>
+		<parameter name="mon3" value="Mar"/>
+		<parameter name="mon4" value="Apr"/>
+		<parameter name="mon5" value="May"/>
+		<parameter name="mon6" value="Jun"/>
+		<parameter name="mon7" value="Jul"/>
+		<parameter name="mon8" value="Aug"/>
+		<parameter name="mon9" value="Sep"/>
+		<parameter name="mon10" value="Oct"/>
+		<parameter name="mon11" value="Nov"/>
+		<parameter name="mon12" value="Dec"/>
+		<classes>
+			<class name="test.Test3"></class>
+		</classes>
+
+	</test>
+
+</suite>

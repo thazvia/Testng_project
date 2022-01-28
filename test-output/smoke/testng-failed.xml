@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke]">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="CategoryName1" value="TR Category"/>
+    <classes>
+      <class name="test.Test2">
+        <methods>
+          <include name="UserShouldBeAbleToCheckDuplicateCategory" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.Test2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [smoke] -->
